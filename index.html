@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width">
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <!--
+    <p>Hello Paragraph</p>
+    -->
+    <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+    <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+
+    <h2>CatPhotoApp</h2>
+    <p>Meowwww loved it, hated it, loved it, hated it yet spill litter box, scratch at owner, destroy all furniture, especially couch or lay on arms while you're using the keyboard. Missing until dinner time toy mouse squeak roll over. With tail in the air lounge in doorway. Man running from cops stops to pet cats, goes to jail.</p>
+    <p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open yet destroy couch.</p>
+    <p>To see fun facts about cats <a href="#footer">jump to Bottom</a>.</p><br>
+
+    <main>
+      <p>Look at the picture below :)</p>
+<!-- opens relaxing cat -->
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+      <p>A cute orange cat lying on its back.</p><br>
+<!--opens 2 cats photos-->
+      <p>Click here to see more 
+        <a href="https://www.freecatphotoapp.com" target="_blank" rel="noopener noreferrer">cat photos</a> or the picture below to ...
+      </p>
+<!-- opens relaxing cat -->
+      <a href="#">
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+      </a>
+    
+      <div>
+        <h3>Fun facts about cats</h3>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+      <h3>Add your photos</h3>
+      <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+
+        <label for="indoor">
+          <input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked> Indoor
+        </label>
+
+        <label for="outdoor">
+          <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor
+        </label><br>
+
+        <label for="loving">
+          <input id="loving" value="loving" type="checkbox" name="personality" checked> Loving
+        </label>
+
+        <label for="lazy">
+          <input id="lazy" value="lazy" type="checkbox" name="personality"> Lazy
+        </label>
+
+        <label for="energetic">
+          <input id="energetic" value="energetic" type="checkbox" name="personality"> Energetic
+        </label><br>
+
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+          
+      </form>
+
+    </main>
+
+  </body>
+  <footer id="footer">Copyright Cat Photo App</footer>
+</html>
